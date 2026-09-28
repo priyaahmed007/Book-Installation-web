@@ -1,14 +1,7 @@
-export type TAppDetailsProps = {
-  params: {
-    id: string;
-  };
-};
-
-
-
-const AppDetails = async ({params}:TAppDetailsProps) => {
-  const {id}= await params;
-
+const getData = async () => {
+ const res = await fetch("http://localhost:3000/data.json");
+  const data = await res.json();
+  return data;
 }
 
-export default AppDetails;
+export default getData;
