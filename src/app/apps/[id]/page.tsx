@@ -1,10 +1,10 @@
-import React from 'react'
-import type page from '../page'
 
-const AppDetailsPage = () => {
+
+
+const AppDetails = () => {
   return (
-    <div>page</div>
+    <div>DEatils</div>
   )
 }
 
-export default AppDetailsPage
+export default AppDetails
